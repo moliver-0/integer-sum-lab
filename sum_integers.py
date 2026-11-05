@@ -1,4 +1,4 @@
-DEFAULT_N = 10
+DEFAULT_N = 100
 def sum_first_n_loop(n):
     """Return 1 + 2 + ... + n using direct accumulation.
     The function assumes that n is a nonnegative integer.
