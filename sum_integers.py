@@ -1,6 +1,8 @@
 DEFAULT_N = 10
 def sum_first_n_loop(n):
-    """Return the sum 1 + 2 + ... + n using a loop."""
+    """Return 1 + 2 + ... + n using direct accumulation.
+    The function assumes that n is a nonnegative integer.
+    """
     total = 0
     for k in range(1, n + 1):
         total += k
